@@ -8,18 +8,34 @@ function Start(){
 	Show("cup","cup_steam",{x:44,y:359});
 	Show("nicky","coffee_nicky_still");
 
-	PlaySound("bg","coffeehouse",{loop:-1, volume:0.7});
-
-	//////////////////////////////
-
 	N("<b>COMING OUT SIMULATOR 2014</b>");
 	N("Un quasi-jeu de semi-vérités.");
-	N("Salut, joueur. Bienvenue dans mon jeu, je suppose.");
+
+	// Ensure player clicks the screen once before playing the first sound.
+	Choose({
+		"Français": MainMenu,
+		"English": function() {
+			t("Oh. Let me redirect you to the original English version in that case.");
+			t("See ya!");
+			window.setTimeout(function() {
+				window.location = "https://ncase.itch.io/coming-out-simulator-2014";
+			}, 5000);
+			Wait(2000);
+			SipCoffee("Huh... Is it not working?");
+			N("That's odd. Try clicking <a href=\"https://ncase.itch.io/coming-out-simulator-2014\">here</a>.");
+		}
+	});
+}
+
+function MainMenu() {
+	PlaySound("bg","coffeehouse",{loop:-1, volume:0.7});
+
+	N("Salut, joueur. Content d'avoir ton attention pour les prochaines 20 minutes, je suppose.");
 
 	// TODO remove this when translation is done
 	TranslationWarning();
 
-	N("Qu'est-ce qu'on fait maintenant?");
+	N("Que veux-tu faire pour commencer?");
 
 	Choose({
 		"On joue!": Play,
@@ -30,7 +46,6 @@ function Start(){
 			About("C'est quoi ce jeu?");
 		}
 	});
-
 }
 
 function TranslationWarning () {
