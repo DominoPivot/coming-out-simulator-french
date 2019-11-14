@@ -1,4 +1,4 @@
-# Coming Out Simulator 2014**    
+# Coming Out Simulator 2014
 *Un quasi-jeu à propos d'une histoire à moitié vraie.*
 
 EN: This repository contains a fan-made French translation of a game originally made by Nicky Case. Translating is made through direct modification of the game script because, due to the nature of the game, simply translating dialogue lines one-to-one is not practical. **WORK IN PROGRESS**
@@ -11,10 +11,10 @@ Le reste de ce document est traduit du répertoire GitHub du jeu d'origine.
 
 Faites attention à ce que vous dites. Dans ce simulateur de conversation, tout le monde retient les réponses que vous choisissez, et ces choix sont le moteur de l'histoire. Ce jeu est semi-autobiographique. Vous incarnez une version romancée de son auteur d'origine en l'an 2010, pendant une nuit qui a changé sa vie à jamais. Si ça semble bizarre ou inconvénient, eh bien, c'est un peu ça être forcé de faire son *coming out* à ses parents.
 
-**Créé par:** [Nicky Case](http://ncase.me/) | [@ncasenmare](https://twitter.com/ncasenmare)
-**Traduit par:** DominoPivot
-**GIFs et captures d'écran:** [Imgur Album](http://imgur.com/a/ultWM)
-**Commentaires de développement (en anglais):** [My open design document.](http://blog.ncase.me/coming-out-simulator-2014/)
+**Créé par:** [Nicky Case](http://ncase.me/) | [@ncasenmare](https://twitter.com/ncasenmare) <br>
+**Traduit par:** DominoPivot <br>
+**GIFs et captures d'écran:** [Imgur Album](http://imgur.com/a/ultWM) <br>
+**Commentaires de développement (en anglais):** [My open design document.](http://blog.ncase.me/coming-out-simulator-2014/) <br>
 
 ---
 
