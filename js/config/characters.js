@@ -14,4 +14,7 @@ m = new Character({ align:"left", background:"#FFF", sound:"text_high" });
 f = new Character({ align:"left", background:"#333", color:"#bbb", sound:"text_low" });
 
 // Jack, the boyfriend character
-j = new Character({ align:"left", background:"#FFF", sound:"text_high" });
+j = new Character({ align: "left", background: "#FFF", sound: "text_high" });
+
+// The translator
+t = new Character({ align: "left", background: "#000", color: "#0F0", sound: "text_low" });
