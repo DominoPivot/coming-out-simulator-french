@@ -1,7 +1,8 @@
 <!doctype html>
-<html>
+<html lang="fr">
 <head>
 	<title>Coming Out Simulator 2014</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/game.css" type="text/css"/>
 </head>
@@ -9,20 +10,20 @@
 <body>
 	<div id="game_container">
 		<div id="game" screen="loading">
-			
+
 			<div id="background"></div>
 			<div id="dialogue"></div>
 			<div id="choices"></div>
 
 			<div id="blank"></div>
 			<div id="loading">
-				<div><span style="position: relative; left: 5px;">LOADING</span><br><div id="loading_bar"></div></div>
+				<div><span style="display: block; font-size: 0.5em; text-align: center">CHARGEMENT</span><div id="loading_bar"></div></div>
 			</div>
 			<div id="credits">
 				<div>
-					
-					<span style="font-size:50px; letter-spacing:15px; position:relative; left:6px;">THE END</span>
-					
+
+					<span style="font-size:50px; letter-spacing:15px; position:relative; left:6px;">FIN</span>
+
 					<br><br>
 
 					<span style="font-size:24px;">
@@ -30,76 +31,58 @@
 					</span>
 					<br>
 					<span style="color:#555; font-size:16px">
-						by <a href="http://ncase.me" target="_blank">Nicky Case</a> | <a href="http://twitter.com/ncasenmare" target="_blank">@ncasenmare</a>
+						par <a href="http://ncase.me" target="_blank">Nicky Case</a> | <a href="http://twitter.com/ncasenmare" target="_blank">@ncasenmare</a>
 					</span>
-					
+					<br>
+					<span style="color:#555; font-size:16px">
+						traduit de l'anglais par DominoPivot
+					</span>
+
 					<br><br>
 
 					<span style="font-size:20px">
-						this game is public domain
+						ce jeu est laissé au domaine publique
 						<br>
 						<span style="color:#555; font-size:16px">
-							
-							my open source <a href="https://github.com/ncase/coming-out-simulator-2014" target="_blank">code</a>
+							<a href="https://github.com/DominoPivot/coming-out-simulator-french" target="_blank">code</a> source
 							<br>
-							my design <a href="http://blog.ncase.me/coming-out-simulator-2014/" target="_blank">document</a>
+							<a href="http://blog.ncase.me/coming-out-simulator-2014/" target="_blank">document</a> de conception
 
 						</span>
 					</span>
-					
+
 					<br><br>
 
 					<span style="font-size:16px">
-						thank you for<br>playing!<br><br><span style="color:#555">:)</span>
+						merci d'avoir<br>joué!<br><br><span style="color:#555">:)</span>
 					</span>
-					
+
 				</div>
 			</div>
 
 		</div>
 		<div id="social">
 
-			<span style="position:relative; top:-2px">share:</span>
+			<span style="position:relative; top:-2px">partager&nbsp;:</span>
 
 			<a target="_blank"
-				href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;t=Coming Out Simulator 2014, a half-true game about half-truths."
+				href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.dominopivot.com%2Fcoming-out-simulator-french%2F&amp;t=Coming Out Simulator 2014, un quasi-jeu de semi-vérités."
 				data-popup-width="626" data-popup-height="436"
 				onclick="return sharePopup.call(this,event);">
 				<img src="icons/facebook.png" width="16" height="16"/>
 			</a>
 
 			<a target="_blank"
-				href="https://twitter.com/share?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;text=Coming Out Simulator 2014, a half-true game about half-truths.&amp;via=ncasenmare"
+				href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.dominopivot.com%2Fcoming-out-simulator-french%2F&amp;text=Coming Out Simulator 2014, un quasi-jeu de semi-vérités.&amp;via=dominopivot"
 				data-popup-width="640" data-popup-height="400"
 				onclick="return sharePopup.call(this,event);">
 				<img src="icons/twitter.png" width="16" height="16"/>
 			</a>
 
 			<a target="_blank"
-				href="https://plus.google.com/share?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014"
-				data-popup-width="600" data-popup-height="460"
-				onclick="return sharePopup.call(this,event);">
-				<img src="icons/google.png" width="16" height="16"/>
-			</a>
-
-			<a target="_blank"
-				href="https://www.tumblr.com/share/link?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;name=Coming Out Simulator 2014&amp;description=A heartbreaking and heartwarming story-game."
-				data-popup-width="446" data-popup-height="430"
-				onclick="return sharePopup.call(this,event);">
-				<img src="icons/tumblr.png" width="16" height="16"/>
-			</a>
-
-			<a target="_blank"
-				href="http://www.reddit.com/submit?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;title=Coming Out Simulator 2014">
+				href="http://www.reddit.com/submit?url=https%3A%2F%2Fwww.dominopivot.com%2Fcoming-out-simulator-french%2F&amp;title=Coming Out Simulator 2014">
 				<img src="icons/reddit.png" width="16" height="16"/>
 			</a>
-		 
-			<a target="_blank"
-				href="https://www.stumbleupon.com/submit?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;title=Coming Out Simulator 2014">
-				<img src="icons/stumbleupon.png" width="16" height="16"/>
-			</a>
-
-
 		</div>
 	</div>
 </body>
